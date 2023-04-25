@@ -67,6 +67,7 @@ img {
 .awe-section {
     position: relative;
     background-repeat: no-repeat;
+    background-color: #1e1e1e;
     background-size: cover;
     background-position: center center;
     z-index: 9;
@@ -249,12 +250,12 @@ a:focus {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #333;
+    background-color: #fff;
 }
 
 ::selection {
     color: #fff;
-    background-color: #333;
+    background-color: #fff;
 }
 
 .awe-section {
@@ -567,11 +568,11 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
-    color: #555;
+    color: #fff;
 }
 
 body.awe-skin-dark {
-    background-color: #333;
+    background-color: #fff;
 }
 
 .awe-skin-dark {
@@ -598,7 +599,7 @@ a, input, textarea, select {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.4;
-    color: #333;
+    color: #fff;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -730,7 +731,7 @@ ul {
 --------------------------------------------------------------------------------*/
 
 .about__subtitle {
-    color: #333;
+    color: #fff;
     margin-bottom: 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -802,7 +803,7 @@ ul {
     display: block;
     font-family: "Montserrat", sans-serif;
     text-transform: capitalize;
-    color: #333;
+    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -936,6 +937,7 @@ ul {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 600;
+    /* overlay menu */
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -1742,7 +1744,7 @@ ul {
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
-    color: #555;
+    color: #fff;
     padding: 5px 10px;
 }
 
@@ -2000,7 +2002,7 @@ ul {
 
 .page-title__text {
     font-size: 16px;
-    color: #a3a3a3;
+    color: #fff;
 }
 
 .page-title__divider {
@@ -2122,7 +2124,7 @@ ul {
 
 .post__meta .author {
     font-weight: 600;
-    color: #c0c0c0;
+    color: #1e1e1e;
     margin-left: 5px;
 }
 
@@ -2172,11 +2174,11 @@ ul {
     height: 20px;
     font-weight: bold;
     font-size: 14px;
-    color: #333;
+    color: #fff;
 }
 
 .awe-skin-dark .progress__wrap {
-    background-color: #666;
+    background-color: #fff;
 }
 
 /* 15. socialicon
@@ -2184,13 +2186,13 @@ ul {
 
 .social-icon {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     line-height: 30px;
-    font-size: 12px;
-    color: #333;
+    font-size: 17px;
+    color: #fff;
     text-align: center;
-    border: 1px solid #ebebeb;
+    border: 1px solid #1e1e1e;
     transition: all .3s ease;
 }
 
@@ -2269,7 +2271,7 @@ ul {
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    color: #333;
+    color: #c5c5c5;
     margin-bottom: 5px;
 }
 
@@ -2287,7 +2289,7 @@ ul {
 
 .work-detail__meta .author {
     font-weight: 600;
-    color: #c0c0c0;
+    color: #1e1e1e;
     margin-left: 5px;
 }
 
@@ -2356,6 +2358,7 @@ ul {
     position: relative;
     padding: 50px 0;
     text-align: center;
+    background-color: #1e1e1e;
 }
 
 .footer__coppy {
@@ -2390,7 +2393,8 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    /* Top Page Color */
+    background-color: #1e1e1e;
     z-index: 999;
 }
 
@@ -2450,7 +2454,7 @@ ul {
     transition-duration: .15s;
     transition-property: transform;
     border-radius: 4px;
-    background-color: #000;
+    background-color: #c5c5c5;
 }
 
 .open .navbar-icon span, .open .navbar-icon span:after,
@@ -2522,7 +2526,8 @@ ul {
 }
 
 .bg-gray {
-    background-color: #fbfbfb;
+    /*Middle page Color */
+    background-color: #1e1e1e;
 }
 
 /* 25. Margin Padding
@@ -2758,8 +2763,8 @@ ul {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #1e1e1e;
+    color: #1e1e1e;
     text-align: center;
     padding-right: 0;
     right: 0;
@@ -2806,8 +2811,8 @@ ul {
 
 .sharebox__module {
     padding: 30px 0;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
 .sharebox__module .social-text {
@@ -2815,6 +2820,6 @@ ul {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
 }
