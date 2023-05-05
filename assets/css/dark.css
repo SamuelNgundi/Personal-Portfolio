@@ -1865,6 +1865,7 @@ ul {
 
 .ef-flip-y, .ef-flip-x {
     overflow: visible;
+    perspective: 0cap;
     -webkit-perspective: 0;
 }
 
